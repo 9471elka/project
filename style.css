@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #lawyers-list {
+    margin-top: 20px;
+  }
+  
+  /* Lawyer Card Styles */
+  .lawyer-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .lawyer-card h3 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .lawyer-card p {
+    margin: 5px 0;
+  }
+  
+  /* Form Styles (if needed) */
+  .form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .form-container button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .form-container button:hover {
+    background-color: #555;
+  }
+  
